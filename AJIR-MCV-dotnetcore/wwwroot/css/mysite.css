@@ -1,0 +1,8 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme-info .image {
+    width: 125px;
+}
