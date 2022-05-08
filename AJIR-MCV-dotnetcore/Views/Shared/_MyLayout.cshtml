@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - AJIR_MCV_dotnetcore</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/mysite.css" />
 </head>
 
 <body>
-    <header>
-
+    <header class="head">
+        <p>your.info</p>
     </header>
-    <div>
-        @RenderBody()
+    <div class="page">
+        <div>
+            @RenderBody()
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
